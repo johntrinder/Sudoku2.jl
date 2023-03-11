@@ -17,7 +17,7 @@ Before usage, function `set_box_size` must be called once to initialize Sudoku2,
         A Matrix{Cell) initialized by `set_box_size`.
 + solve(), solve(sdm::AbstractString)
 
-    Solve the `board` (with or without 'givens'.
+    Solve the `board` (with or without 'givens'.)
 + is_valid_sudoku
 
     Is the global var `board` a valid Sudoku solution?
