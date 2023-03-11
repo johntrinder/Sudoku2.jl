@@ -9,10 +9,10 @@ Before usage, function `set_box_size` must be called once to initialize Sudoku2,
 `incidence_matrix` - the 'exact cover' matrix.
 
 ## Exported:
-+ set_box_size
-    Set the component box width (eg, 3 for a 9x9 puzzle).
++ set_box_size(n)
+        Set the component box width (eg, 3 for a 9x9 puzzle).
 + board
-    A Matrix{Cell) initialized by `set_box_size`.
+        A Matrix{Cell) initialized by `set_box_size`.
 + solve
     Solve the `board` (with or without 'givens'.
 + is_valid_sudoku
