@@ -20,13 +20,13 @@ Before usage, function `set_box_size` must be called once to initialize Sudoku2,
         Solve the `board` (with or without 'givens'.)
 + is_valid_sudoku
 
-    Is the global var `board` a valid Sudoku solution?
+        Is the global var `board` a valid Sudoku solution?
 + set_random_solution
 
-    Create a random solution (print the result with string(board)).
+        Create a random solution (print the result with string(board)).
 + convert_nanoseconds
 
-    Helper
+        Helper
 
 ## Example:
     # prints out a randomized 4x4 Sudoku solution:
