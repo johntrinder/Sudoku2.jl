@@ -19,13 +19,13 @@ Before usage, function `set_box_size` must be called once to initialize Sudoku2,
 + solve(), solve(sdm::AbstractString)
 
         Solve the `board` (with or without 'givens'.)
-+ is_valid_sudoku
++ is_valid_sudoku()
 
         Is the global var `board` a valid Sudoku solution?
-+ set_random_solution
++ set_random_solution(; verbose::Bool=false)
 
         Create a random solution (print the result with string(board)).
-+ convert_nanoseconds
++ convert_nanoseconds(..)
 
         Helper
 
