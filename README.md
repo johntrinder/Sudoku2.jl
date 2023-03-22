@@ -27,7 +27,7 @@ Before usage, function `set_box_size` must be called once to initialize Sudoku2,
         Create a random solution (print the result with string(board)).
 + convert_nanoseconds(..)
 
-        Helper
+        Helper 
 
 ## Example:
     # prints out a randomized 4x4 Sudoku solution:
