@@ -8,3 +8,5 @@ DancingLinks = "7ae08850-c52a-43cc-800f-322b1269b294"
 
 [compat]
 julia = "1.8"
+DancingLinks = "0.1.1"
+
