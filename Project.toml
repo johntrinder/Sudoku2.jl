@@ -1,7 +1,7 @@
 name = "Sudoku2"
 uuid = "9845c0be-7293-49a1-bc3a-a77c121f8a4d"
 authors = ["Daddy "]
-version = "0.1.1"
+version = "0.1.2"
 
 [deps]
 DancingLinks = "7ae08850-c52a-43cc-800f-322b1269b294"
